@@ -13,7 +13,7 @@ module.exports = {
   plugins: ['@babel/plugin-transform-runtime'],
   env: {
     test: {
-      // plugins: ['require-context-hook'],
+      plugins: ['require-context-hook'],
     },
   },
 }

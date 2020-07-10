@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots atoms.Button colors 1`] = `
+<div
+  style="display: flex; flex-direction: column; align-items: center;"
+>
+  <div
+    style="margin: 16px 0px;"
+  >
+    <button
+      class="button is-primary is-normal"
+    >
+      <span>
+        is-primary
+      </span>
+    </button>
+  </div>
+   
+  <div
+    style="margin: 16px 0px;"
+  >
+    <button
+      class="button is-info is-normal"
+    >
+      <span>
+        is-info
+      </span>
+    </button>
+  </div>
+   
+  <div
+    style="margin: 16px 0px;"
+  >
+    <button
+      class="button is-danger is-normal"
+    >
+      <span>
+        is-danger
+      </span>
+    </button>
+  </div>
+</div>
+`;

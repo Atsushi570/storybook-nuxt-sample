@@ -3,6 +3,7 @@ module.exports = {
     '^@/(.*)$': '<rootDir>/$1',
     '^~/(.*)$': '<rootDir>/$1',
     '^vue$': 'vue/dist/vue.common.js',
+    '\\.(css|less)$': '<rootDir>/__mocks__/styleMock.js',
   },
   moduleFileExtensions: ['js', 'vue', 'json'],
   transform: {
